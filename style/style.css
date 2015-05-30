@@ -1,0 +1,57 @@
+.states {
+  fill: #ccc;
+  opacity: 0.4;
+}
+
+.state-borders {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1.5px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.person-arcs {
+  fill: none;
+  opacity: 0;
+  display: none;
+  stroke-width: 0.3px;
+}
+
+.people circle {
+  fill: #666;
+  stroke: #fff;
+  pointer-events: none;
+  opacity: 0.1;
+  stroke-width: .2px;
+}
+
+#progressbar{
+	height: 10px;
+}
+
+.graticule {
+  fill: none;
+  stroke: #777;
+  stroke-width: .5px;
+  stroke-opacity: .1;
+}
+
+/*border is not obvious*/
+.country{
+  fill: #ccc;
+  opacity: 0.4;
+  stroke: #fff;
+  stroke-width: 0.5px;
+}
+
+
+/*bar chart*/
+#stepBarChart{
+	width: 100%;
+	height: 500px;
+}
+
+.canvasjs-chart-credit{
+	opacity: 0;
+}
